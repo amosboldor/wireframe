@@ -1,0 +1,39 @@
+header {
+  margin: 0 auto;
+  max-width: 960px;
+  position: relative;
+  border: 1px solid black;
+  height: 90px;
+}
+header>img {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    height: 45px;
+    position: absolute;
+    top: 5px;
+    right: 200px;
+    border: 1px solid black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+main {
+  height: 1345px;
+  border: 1px solid black;
+  position: relative;
+  top: 0px;
+}
+.mainimg {
+    text-align: center;
+}
