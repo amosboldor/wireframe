@@ -1,15 +1,21 @@
+body {
+  margin: 0px;
+}
 header {
+  background-color: #404040;
+}
+.head {
   margin: 0 auto;
   max-width: 960px;
   position: relative;
   height: 90px;
 }
-header>img {
+.head>img {
   position: absolute;
   top: 10px;
   left: 0px;
 }
-header>nav>ul {
+.head>nav>ul {
     list-style-type: none;
     padding: 0;
     height: 45px;
@@ -17,24 +23,24 @@ header>nav>ul {
     top: 5px;
     right: 200px;
 }
-header>nav>ul>li {
+.head>nav>ul>li {
     float: left;
 }
-header>nav>ul>li a {
+.head>nav>ul>li a {
     display: block;
     color: gray;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
 }
 main {
-  height: 1345px;
-  border: 1px solid black;
+  height: 1320px;
   position: relative;
   top: 0px;
   max-width: 960px;
   margin: 0 auto;
 }
-.mainimg {
+main>img {
     position: absolute;
     top: 20px;
 }
@@ -55,10 +61,35 @@ main>ul>li {
   top: 895px
 }
 section {
-  width: 480px;
-  height: 400px;
+  width: 440px;
+  height: 360px;
   position: absolute;
   right: 0px;
   top: 895px;
-  border: 1px solid black;
+  padding: 0px 20px 40px 20px;
+}
+section>p {
+  height: 280px;
+  overflow: scroll;
+}
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  font-size: 15px;
+  transition-duration: 350ms
+}
+button:hover {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+footer {
+  height: 130px;
+  background-color: #404040;
 }
